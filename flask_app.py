@@ -17,5 +17,5 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    # celsius = input('Celsius: ')
-    return 'Hello from Flask!' #+ fahrenheit_from(celsius)
+    celsius = input('Celsius: ')
+    return 'Hello from Flask!' + celsius
