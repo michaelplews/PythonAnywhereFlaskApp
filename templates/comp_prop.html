@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Comparison of Porportions</title>
+        <h3>Difference between two proportions</h3>
+    </head>
+    <body>
+        <div>Proportion A: {{p1}}</div>
+        <div>Proportion B: {{p2}}</div>
+        <div>
+            Difference (A-B) in proportions is {{ d_mean }} ({{ ci }}% CI = [{{ d_lci }}, {{ d_uci }}])
+        </div>
+        <div>
+            <img src="{{ result }}">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Stat Simulation</title>
+        <h3>Difference between two proportions</h3>
+    </head>
+    <body>
+        <div>
+        </div>
+        <div>
+            <form action="." method="POST">
+                <label for="alpha">Alpha:</label>
+                <input type="number" id="alpha" name="alpha" min="0" max="0.99" value="0.05", step="0.01"><br><br>
+                <label for="groupA_trials">Number of Trials in Group A:</label>
+                <input type="number" id="groupA_trials" name="groupA_trials" min="0"><br><br>
+                <label for="groupA_successes">Number of Successes in Group A:</label>
+                <input type="number" id="groupA_successes" name="groupA_successes" min="0"><br><br>
+                <label for="groupB_trials">Number of Trials in Group B:</label>
+                <input type="number" id="groupB_trials" name="groupB_trials" min="0"><br><br>
+                <label for="groupB_successes">Number of Successes in Group B:</label>
+                <input type="number" id="groupB_successes" name="groupB_successes" min="0"><br><br>
+                <label for="simulation_size">Simulation Size:</label>
+                <input type="number" id="simulation_size" name="simulation_size" min="0" value="1000"><br><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </form>
+        </div>
+    </body>
+</html>
