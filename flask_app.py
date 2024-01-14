@@ -10,7 +10,6 @@ import pandas as pd
 import base64
 
 app = Flask(__name__)
-app.config["DEBUG"] = True
 
 def monte_carlo_sim(alpha, n1, p1, n2, p2, size):
     A = stats.binom(n1, p1).rvs(size=size)/n1
